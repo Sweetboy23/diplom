@@ -1,0 +1,146 @@
+@import 'common.css';
+
+.block {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 720px;
+}
+.hockey {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Prosto one';
+    line-height: 49px;
+    width: 920px;
+    height: 105px;
+    padding-left: 214px;
+    padding-top: 96px;
+}
+.knopka {
+    font-family: 'Prosto One';
+    position: absolute;
+    align-items: center;
+    float: left;
+    background: #ae9441;
+    border: 1px solid #ffffff;
+    height: 66px;
+    width: 314px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    left: 420px;
+    margin-top: 329px;
+}
+.knopka a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+.knopka:hover {
+    font-family: 'Prosto One';
+    position: absolute;
+    align-items: center;
+    float: left;
+    background: #000000;
+    border: 1px solid #ffffff;
+    height: 66px;
+    width: 314px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ae9441;
+    left: 420px;
+    margin-top: 329px;
+    transition: all 1s;
+}
+.knopka a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 1s;
+}
+.hover-image-scale {
+    display: inline-block;
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block;
+}
+.hover-image-scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.container .block__banner {
+    margin-top: 102px;
+    height: 781px;
+    width: 100%;
+    background-color: black;
+}
+.text__banner {
+    line-height: 29;
+    float: right;
+    margin-right: 19px;
+    height: 246px;
+    width: 1071px;
+    font-family: 'Roboto';
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 300;
+    align-items: right;
+    padding-top: 184px;
+}
+.img-banner {
+    padding-top: 40px;
+}
+.btn__banner {
+    left: 1055px;
+    font-family: 'Prosto One';
+    position: absolute;
+    align-items: center;
+    float: left;
+    background: #ae9441;
+    border: 1px solid #ffffff;
+    height: 66px;
+    width: 314px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 513px;
+}
+.btn__banner:hover {
+    left: 1055px;
+    font-family: 'Prosto One';
+    position: absolute;
+    align-items: center;
+    float: left;
+    background: #000000;
+    border: 1px solid #ffffff;
+    height: 66px;
+    width: 314px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 513px;
+    transition: all 1s;
+}
+.img-banner {
+    display: inline-block;
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.img-banner img {
+    transition: 1s; /* Время эффекта */
+    display: block;
+}
+.img-banner img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
