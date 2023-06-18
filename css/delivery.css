@@ -1,0 +1,104 @@
+@import 'common.css';
+
+.container .block__dostavka {
+    display: block;
+    justify-content: sp;
+}
+.title-bl-dos {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    padding-left: 149px;
+    padding-top: 72px;
+    color: #ffffff;
+}
+.text-price-region {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    padding-left: 149px;
+    padding-top: 33px;
+    color: #ffffff;
+}
+.zakaz {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 38px;
+    color: #000000;
+}
+.Dostavka__MOskva {
+    padding-left: 149px;
+    padding-top: 54px;
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #ffffff;
+}
+.dos-Msk {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 25px;
+    color: #000000;
+}
+.Dostavka-in-punkt {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    padding-left: 149px;
+    padding-top: 25px;
+    color: #ffffff;
+}
+.PVZ {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 28px;
+    color: #000000;
+}
+.RUSSIA {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    padding-left: 149px;
+    padding-top: 73px;
+    color: #ffffff;
+}
+.dostavka-tovars {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 32px;
+    color: #000000;
+}
+.sposop_oplata {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    padding-top: 74px;
+    padding-left: 149px;
+    padding-bottom: 48px;
+    color: #ffffff;
+}
+.banks_cards {
+    padding-left: 178px;
+    padding-right: 120px;
+}

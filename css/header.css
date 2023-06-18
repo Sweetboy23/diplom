@@ -1,0 +1,70 @@
+header {
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    /* margin-left: 70px;
+    margin-right: 130px; */
+}
+.kozina {
+    position: relative;
+    padding: 0 20px;
+}
+
+.kozina-logo {
+    width: 118px;
+}
+
+.cart-icon-counter {
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: white;
+    background-color: #ae9441;
+    border-radius: 5px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-menu {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding: 0 10px 5px;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: all 0.9s ease-in-out;
+}
+.navbar-menu li a:hover {
+    color: #ae9441;
+}

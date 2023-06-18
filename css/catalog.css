@@ -1,0 +1,136 @@
+@import 'common.css';
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    margin: 140px auto 0;
+    max-width: 1100px;
+}
+
+.catalog-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item {
+    background: white;
+    padding: 5px;
+    position: relative;
+    transition: height 3s;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item:hover .dat {
+    transform: translateY(-50px);
+    opacity: 1;
+}
+.item:hover img {
+    transform: scale(0.8);
+}
+.product-img {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+    max-height: 100%;
+    transition: 0.5s;
+    object-fit: contain;
+}
+.dat {
+    width: 100%;
+    padding: 5px 10px 15px;
+    background: #eee;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    opacity: 0;
+}
+.dat p {
+    margin: 10px auto;
+}
+.dat strong {
+    display: inline-block;
+    width: 100%;
+}
+.dat p:first-child strong {
+    width: 75%;
+}
+.price {
+    font-size: 17px;
+    font-weight: bold;
+}
+.in {
+    display: flex;
+    gap: 10px;
+}
+.in span {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+}
+.in span.active {
+    background: #ae9441;
+    color: #000;
+}
+.buy {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    background-color: #ae9441;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+.buy:hover {
+    background-color: #baa254;
+}
+
+.counter {
+    display: flex;
+}
+
+.counter-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.counter__btn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: #74705c;
+    color: #e4b51c;
+    border-radius: 50%;
+    border: none;
+}
+.counter__value {
+    width: 50px;
+    height: 28px;
+    background: #74705c;
+    text-align: center;
+    color: #e4b51c;
+    border-radius: 3px;
+    border: none;
+}

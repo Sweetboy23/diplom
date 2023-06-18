@@ -1,0 +1,70 @@
+@import 'common.css';
+
+.container .company {
+  display: block;
+}
+.title-company {
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  padding-top: 115px;
+  padding-left: 447px;
+  color: #ffffff;
+}
+.company-ice_hockey {
+  padding-top: 152px;
+  padding-left: 312px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #eee;
+}
+.klient-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  padding-top: 59px;
+  padding-left: 350px;
+  color: #000000;
+}
+.text-klient {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 1px;
+  padding-left: 350px;
+  color: #ffffff;
+}
+.history_shop {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 115px;
+  padding-left: 202px;
+  color: #000000;
+}
+.podhod_for_products {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  padding-top: 92px;
+  padding-left: 350px;
+  color: #000000;
+}
+.text_podhod {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 17px;
+  padding-left: 350px;
+  color: #ffffff;
+}
